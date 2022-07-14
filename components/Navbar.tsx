@@ -19,11 +19,6 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <ul>
-        <li>
-          <Link href="/">
-            <button className="btn-logo">NXT</button>
-          </Link>
-        </li>
 
         {/* user is signed-in and has username */}
         {username && (
