@@ -28,7 +28,12 @@ export default function Navbar() {
             </li>
             <li>
               <Link href="/admin">
-                <button className="btn-blue">Write Posts</button>
+                <button className="btn-blue">Join Competitions</button>
+              </Link>
+            </li>
+            <li>
+              <Link href="/admin">
+                <button className="btn-blue">Host Competitions</button>
               </Link>
             </li>
             <li>
